@@ -12,4 +12,15 @@ class surftime {
 
 }
 
-module.exports = surftime
+
+
+
+function Build(name, value){
+    this.name = name,
+    this.value = value
+
+}
+
+const ben = new Build("Ben", "None")
+
+console.log(ben)
