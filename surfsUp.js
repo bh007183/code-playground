@@ -19,6 +19,11 @@ function Build(name, value){
     this.name = name,
     this.value = value
 
+    getName = () => {
+        console.log("getName")
+
+    }
+
 }
 
 const ben = new Build("Ben", "None")
